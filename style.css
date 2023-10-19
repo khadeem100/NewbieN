@@ -459,7 +459,7 @@ p {
 .next-button {
     position: absolute;
     top: 50%;
-    right: 10px; /* Adjust the right position as needed */
+    right: 10px; 
     transform: translateY(-50%);
     cursor: pointer;
     z-index: 1;
@@ -521,7 +521,7 @@ p {
 
 #map-image-container {
     max-width: 700px;
-    margin: 0 auto; /* Center the image horizontally */
+    margin: 0 auto;
 }
 
 #map-image-container img {
