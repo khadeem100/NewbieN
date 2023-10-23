@@ -579,3 +579,16 @@ p {
 .choice:last-child {
     margin-right: 30px;
 }
+
+section2 {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 90px;
+    width: 1300px;
+    height: 100px;
+    flex-shrink: 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
