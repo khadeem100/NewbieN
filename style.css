@@ -142,14 +142,27 @@ p {
     margin-top: 100px;
     margin-bottom: 150px;
 }
-.box,
-.boxtr {
+.box {
     background-color: #FFFFFF;
     padding: 20px;
     text-align: center;
     border: 3px solid #112a46;
     border-radius: 5px;
-    height: 20px
+    height: 370px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.boxtr {
+    background-color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #112a46;
+    border-radius: 5px;
+    height: 20px;
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -543,6 +556,7 @@ section2 {
 
     h2 {
         font-size: 40px;
+        justify-content: center;
         height: 160px;
     }
 
@@ -768,7 +782,7 @@ form input, form textarea {
 }
 
 form button {
-    background-color: #007BFF;
+    background-color: #0D1B2A;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -799,11 +813,15 @@ section {
 }
 
 h2 {
-    color: #007BFF;
+    display: flex;
+    color: #112A46;
     font-size: 1.5rem;
+    justify-content: center;
 }
 
 p {
+    display: flex;
+    justify-content: center;
     font-size: 1rem;
     line-height: 1.4;
 }
@@ -866,4 +884,13 @@ p {
     position: relative;
     font-size: 16px;
     padding: 10px;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px; /* Adjust the margin to your preference */
+    width: 50px;
+    height: 50px;
 }
